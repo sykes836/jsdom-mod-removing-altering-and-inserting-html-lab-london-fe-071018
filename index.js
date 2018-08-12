@@ -6,7 +6,8 @@ main.remove ()
 
 const newHeader = document.createElement('h1');
 newHeader.id = "victory";
-  var newHeader = document.createTextNode("BERNARD is the Champion"); 
+  let newHeader = document.createElement("h1#victory");
+  var h1victory = document.createTextNode("BERNARD is the Champion"); 
   newDiv.appendChild(newContent);
 document.body.appendChild(newHeader);
 
